@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+body{
+    background-color: darkgray;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: px;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    direction: rtl;
+
+   max-width: 100%;
+   
+
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+form{
+    width:px;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+input{
+    width: 70%;
+    border-radius: 8px;
+    margin: 8px px;
+    border: none;
+    padding: 5px;
+    border: 1px solid #ddd;
+    direction: rtl;
+    margin-left: 80px;
+   margin-right: 3px;
+    
+
+}
+textarea{
+    width:95%;
+    border: none;
+    margin: 8px 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    direction: rtl;
+}
+#add{
+    padding: 5px;
+    font-size: 20px;
+}
+#output{ 
+      
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      
+}
+.item{
+   width: 30%;
+   padding: 15px;
+   background-color: blue;
+   color: white;
+   flex:  0 0 auto;
+   margin: 5px;
+   
+   
+}
+.item h4{
+ font-size: 18px;
+
+}
+.item p{
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+ .move{
+    float: left;
+    font-size: 20px;
+    width: auto;
+    padding: 3px 8px;
+} 
+.move:hover{
+    background-color: #ddd;
+}
