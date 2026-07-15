@@ -24,7 +24,6 @@ body{
     margin: 15px;
     padding: 15px;
     direction: rtl;
-
    max-width: 100%;
    
 
@@ -45,7 +44,7 @@ form{
     overflow: hidden;
     
 }
-input{
+ input{
     width: 70%;
     border-radius: 8px;
     margin: 8px px;
@@ -54,10 +53,12 @@ input{
     border: 1px solid #ddd;
     direction: rtl;
     margin-left: 80px;
-   margin-right: 3px;
+    margin-right: 3px; 
     
 
-}
+} 
+
+
 textarea{
     width:95%;
     border: none;
@@ -65,26 +66,34 @@ textarea{
     border: 1px solid #ddd;
     padding: 5px;
     direction: rtl;
+    font-size: 20px;
 }
 #add{
-    padding: 5px;
-    font-size: 20px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    
 }
 #output{ 
       
 
     display: flex;
-    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
     align-items: center;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    
       
 }
 .item{
-   width: 30%;
+   width: 90%;
    padding: 15px;
    background-color: blue;
    color: white;
    flex:  0 0 auto;
    margin: 5px;
+   border-radius: 20px;
    
    
 }
@@ -94,8 +103,11 @@ textarea{
 }
 .item p{
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 28px;
 
+}
+button{
+    cursor: pointer;
 }
 
  .move{
@@ -103,7 +115,52 @@ textarea{
     font-size: 20px;
     width: auto;
     padding: 3px 8px;
+    background-color: white;
+    border-radius: 10px;
 } 
 .move:hover{
     background-color: #ddd;
+}
+#coom{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+@media (min-width:520px) and (max-width:800px) {
+     input{
+        margin-left: 35px;
+        width: 60%;
+     }
+     #add{
+        font-size: 18px;
+     }
+   
+}
+@media(min-width:300px) and (max-width:519px) {
+    input{
+        width: 55%;
+    font-size: 25px;
+    margin-left: 15px;
+    }
+    #add{
+        font-size: 17px;
+    }
+   
+}
+@media (max-width:299px) {
+    #coom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 80%;
+        font-size: 18px;
+        margin: auto;
+    }
+    #add{
+        font-size: 15px;
+    }
+  
+    
 }
