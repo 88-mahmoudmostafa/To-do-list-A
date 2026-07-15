@@ -60,13 +60,14 @@ form{
 
 
 textarea{
-    width:95%;
+    width:80%;
     border: none;
     margin: 8px 5px;
     border: 1px solid #ddd;
     padding: 5px;
     direction: rtl;
     font-size: 20px;
+    height: 200px;
 }
 #add{
     padding: 5px 10px;
